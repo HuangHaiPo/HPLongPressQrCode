@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52340401CC43A9A2F60C3C5D /* libPods-HPLongPressQrCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4FC35D584CC55D642916284 /* libPods-HPLongPressQrCodeTests.a */; };
+		52F07CC33EB825BC829C7D84 /* libPods-HPLongPressQrCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96981CD1145EF702ECBD583E /* libPods-HPLongPressQrCode.a */; };
+		A7451B13AE89E86C13401341 /* libPods-HPLongPressQrCodeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1464FE6832F8A9049F461854 /* libPods-HPLongPressQrCodeUITests.a */; };
+		E3125B2E22BCCBE000F9F2D0 /* HPScreenShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3125B2D22BCCBE000F9F2D0 /* HPScreenShotViewController.m */; };
+		E3125B3122BCCBFD00F9F2D0 /* HPDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3125B3022BCCBFD00F9F2D0 /* HPDownloadViewController.m */; };
+		E3125B3422BCDB0300F9F2D0 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3125B3222BCD6D600F9F2D0 /* Photos.framework */; };
+		E33BE46422BA070F0010CCDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33BE46322BA070F0010CCDB /* AppDelegate.m */; };
+		E33BE46722BA070F0010CCDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33BE46622BA070F0010CCDB /* ViewController.m */; };
+		E33BE46A22BA070F0010CCDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33BE46822BA070F0010CCDB /* Main.storyboard */; };
+		E33BE46C22BA07100010CCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33BE46B22BA07100010CCDB /* Assets.xcassets */; };
+		E33BE46F22BA07100010CCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33BE46D22BA07100010CCDB /* LaunchScreen.storyboard */; };
+		E33BE47222BA07100010CCDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33BE47122BA07100010CCDB /* main.m */; };
+		E33BE47C22BA07100010CCDB /* HPLongPressQrCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33BE47B22BA07100010CCDB /* HPLongPressQrCodeTests.m */; };
+		E33BE48722BA07100010CCDB /* HPLongPressQrCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33BE48622BA07100010CCDB /* HPLongPressQrCodeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33BE47822BA07100010CCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33BE45722BA070F0010CCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33BE45E22BA070F0010CCDB;
+			remoteInfo = HPLongPressQrCode;
+		};
+		E33BE48322BA07100010CCDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33BE45722BA070F0010CCDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33BE45E22BA070F0010CCDB;
+			remoteInfo = HPLongPressQrCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CAF0F023406B207CDA4EEEB /* Pods-HPLongPressQrCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCodeTests/Pods-HPLongPressQrCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F4803A166C626A5950DC918 /* Pods-HPLongPressQrCodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCodeUITests/Pods-HPLongPressQrCodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1464FE6832F8A9049F461854 /* libPods-HPLongPressQrCodeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPLongPressQrCodeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1626491D15308ADA1D7A3DB9 /* Pods-HPLongPressQrCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCode/Pods-HPLongPressQrCode.debug.xcconfig"; sourceTree = "<group>"; };
+		177644FC27F7CB0F01E813F5 /* Pods-HPLongPressQrCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCodeUITests/Pods-HPLongPressQrCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7049169278D2B8B91682DC3D /* Pods-HPLongPressQrCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCode/Pods-HPLongPressQrCode.release.xcconfig"; sourceTree = "<group>"; };
+		762666AFDB0E92B214799F5E /* Pods-HPLongPressQrCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPLongPressQrCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPLongPressQrCodeTests/Pods-HPLongPressQrCodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		96981CD1145EF702ECBD583E /* libPods-HPLongPressQrCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPLongPressQrCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3125B2C22BCCBE000F9F2D0 /* HPScreenShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPScreenShotViewController.h; sourceTree = "<group>"; };
+		E3125B2D22BCCBE000F9F2D0 /* HPScreenShotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPScreenShotViewController.m; sourceTree = "<group>"; };
+		E3125B2F22BCCBFD00F9F2D0 /* HPDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPDownloadViewController.h; sourceTree = "<group>"; };
+		E3125B3022BCCBFD00F9F2D0 /* HPDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPDownloadViewController.m; sourceTree = "<group>"; };
+		E3125B3222BCD6D600F9F2D0 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		E33BE45F22BA070F0010CCDB /* HPLongPressQrCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPLongPressQrCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33BE46222BA070F0010CCDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E33BE46322BA070F0010CCDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E33BE46522BA070F0010CCDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E33BE46622BA070F0010CCDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E33BE46922BA070F0010CCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33BE46B22BA07100010CCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33BE46E22BA07100010CCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33BE47022BA07100010CCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33BE47122BA07100010CCDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E33BE47722BA07100010CCDB /* HPLongPressQrCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPLongPressQrCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33BE47B22BA07100010CCDB /* HPLongPressQrCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPLongPressQrCodeTests.m; sourceTree = "<group>"; };
+		E33BE47D22BA07100010CCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33BE48222BA07100010CCDB /* HPLongPressQrCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPLongPressQrCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33BE48622BA07100010CCDB /* HPLongPressQrCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPLongPressQrCodeUITests.m; sourceTree = "<group>"; };
+		E33BE48822BA07110010CCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FC35D584CC55D642916284 /* libPods-HPLongPressQrCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPLongPressQrCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33BE45C22BA070F0010CCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3125B3422BCDB0300F9F2D0 /* Photos.framework in Frameworks */,
+				52F07CC33EB825BC829C7D84 /* libPods-HPLongPressQrCode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE47422BA07100010CCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52340401CC43A9A2F60C3C5D /* libPods-HPLongPressQrCodeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE47F22BA07100010CCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7451B13AE89E86C13401341 /* libPods-HPLongPressQrCodeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE43D08B4136D0C2C777C94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1626491D15308ADA1D7A3DB9 /* Pods-HPLongPressQrCode.debug.xcconfig */,
+				7049169278D2B8B91682DC3D /* Pods-HPLongPressQrCode.release.xcconfig */,
+				0CAF0F023406B207CDA4EEEB /* Pods-HPLongPressQrCodeTests.debug.xcconfig */,
+				762666AFDB0E92B214799F5E /* Pods-HPLongPressQrCodeTests.release.xcconfig */,
+				177644FC27F7CB0F01E813F5 /* Pods-HPLongPressQrCodeUITests.debug.xcconfig */,
+				0F4803A166C626A5950DC918 /* Pods-HPLongPressQrCodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9D4AEE5500392F1B0F7D11B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3125B3222BCD6D600F9F2D0 /* Photos.framework */,
+				96981CD1145EF702ECBD583E /* libPods-HPLongPressQrCode.a */,
+				F4FC35D584CC55D642916284 /* libPods-HPLongPressQrCodeTests.a */,
+				1464FE6832F8A9049F461854 /* libPods-HPLongPressQrCodeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E33BE45622BA070F0010CCDB = {
+			isa = PBXGroup;
+			children = (
+				E33BE46122BA070F0010CCDB /* HPLongPressQrCode */,
+				E33BE47A22BA07100010CCDB /* HPLongPressQrCodeTests */,
+				E33BE48522BA07100010CCDB /* HPLongPressQrCodeUITests */,
+				E33BE46022BA070F0010CCDB /* Products */,
+				3AE43D08B4136D0C2C777C94 /* Pods */,
+				B9D4AEE5500392F1B0F7D11B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E33BE46022BA070F0010CCDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33BE45F22BA070F0010CCDB /* HPLongPressQrCode.app */,
+				E33BE47722BA07100010CCDB /* HPLongPressQrCodeTests.xctest */,
+				E33BE48222BA07100010CCDB /* HPLongPressQrCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33BE46122BA070F0010CCDB /* HPLongPressQrCode */ = {
+			isa = PBXGroup;
+			children = (
+				E33BE46222BA070F0010CCDB /* AppDelegate.h */,
+				E33BE46322BA070F0010CCDB /* AppDelegate.m */,
+				E33BE46522BA070F0010CCDB /* ViewController.h */,
+				E33BE46622BA070F0010CCDB /* ViewController.m */,
+				E3125B2C22BCCBE000F9F2D0 /* HPScreenShotViewController.h */,
+				E3125B2D22BCCBE000F9F2D0 /* HPScreenShotViewController.m */,
+				E3125B2F22BCCBFD00F9F2D0 /* HPDownloadViewController.h */,
+				E3125B3022BCCBFD00F9F2D0 /* HPDownloadViewController.m */,
+				E33BE46822BA070F0010CCDB /* Main.storyboard */,
+				E33BE46B22BA07100010CCDB /* Assets.xcassets */,
+				E33BE46D22BA07100010CCDB /* LaunchScreen.storyboard */,
+				E33BE47022BA07100010CCDB /* Info.plist */,
+				E33BE47122BA07100010CCDB /* main.m */,
+			);
+			path = HPLongPressQrCode;
+			sourceTree = "<group>";
+		};
+		E33BE47A22BA07100010CCDB /* HPLongPressQrCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33BE47B22BA07100010CCDB /* HPLongPressQrCodeTests.m */,
+				E33BE47D22BA07100010CCDB /* Info.plist */,
+			);
+			path = HPLongPressQrCodeTests;
+			sourceTree = "<group>";
+		};
+		E33BE48522BA07100010CCDB /* HPLongPressQrCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E33BE48622BA07100010CCDB /* HPLongPressQrCodeUITests.m */,
+				E33BE48822BA07110010CCDB /* Info.plist */,
+			);
+			path = HPLongPressQrCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33BE45E22BA070F0010CCDB /* HPLongPressQrCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33BE48B22BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCode" */;
+			buildPhases = (
+				7725A685417085B54E3164F9 /* [CP] Check Pods Manifest.lock */,
+				E33BE45B22BA070F0010CCDB /* Sources */,
+				E33BE45C22BA070F0010CCDB /* Frameworks */,
+				E33BE45D22BA070F0010CCDB /* Resources */,
+				59A0BFFA207FFED2C40D8307 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPLongPressQrCode;
+			productName = HPLongPressQrCode;
+			productReference = E33BE45F22BA070F0010CCDB /* HPLongPressQrCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33BE47622BA07100010CCDB /* HPLongPressQrCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33BE48E22BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCodeTests" */;
+			buildPhases = (
+				048EEE29AF755E4992E8064C /* [CP] Check Pods Manifest.lock */,
+				E33BE47322BA07100010CCDB /* Sources */,
+				E33BE47422BA07100010CCDB /* Frameworks */,
+				E33BE47522BA07100010CCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33BE47922BA07100010CCDB /* PBXTargetDependency */,
+			);
+			name = HPLongPressQrCodeTests;
+			productName = HPLongPressQrCodeTests;
+			productReference = E33BE47722BA07100010CCDB /* HPLongPressQrCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E33BE48122BA07100010CCDB /* HPLongPressQrCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33BE49122BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCodeUITests" */;
+			buildPhases = (
+				D84B0B53A1625859D448754E /* [CP] Check Pods Manifest.lock */,
+				E33BE47E22BA07100010CCDB /* Sources */,
+				E33BE47F22BA07100010CCDB /* Frameworks */,
+				E33BE48022BA07100010CCDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33BE48422BA07100010CCDB /* PBXTargetDependency */,
+			);
+			name = HPLongPressQrCodeUITests;
+			productName = HPLongPressQrCodeUITests;
+			productReference = E33BE48222BA07100010CCDB /* HPLongPressQrCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33BE45722BA070F0010CCDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = leon;
+				TargetAttributes = {
+					E33BE45E22BA070F0010CCDB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E33BE47622BA07100010CCDB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E33BE45E22BA070F0010CCDB;
+					};
+					E33BE48122BA07100010CCDB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E33BE45E22BA070F0010CCDB;
+					};
+				};
+			};
+			buildConfigurationList = E33BE45A22BA070F0010CCDB /* Build configuration list for PBXProject "HPLongPressQrCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33BE45622BA070F0010CCDB;
+			productRefGroup = E33BE46022BA070F0010CCDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33BE45E22BA070F0010CCDB /* HPLongPressQrCode */,
+				E33BE47622BA07100010CCDB /* HPLongPressQrCodeTests */,
+				E33BE48122BA07100010CCDB /* HPLongPressQrCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33BE45D22BA070F0010CCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33BE46F22BA07100010CCDB /* LaunchScreen.storyboard in Resources */,
+				E33BE46C22BA07100010CCDB /* Assets.xcassets in Resources */,
+				E33BE46A22BA070F0010CCDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE47522BA07100010CCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE48022BA07100010CCDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048EEE29AF755E4992E8064C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPLongPressQrCodeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A0BFFA207FFED2C40D8307 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HPLongPressQrCode/Pods-HPLongPressQrCode-resources.sh",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
+				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HPLongPressQrCode/Pods-HPLongPressQrCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7725A685417085B54E3164F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPLongPressQrCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84B0B53A1625859D448754E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HPLongPressQrCodeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33BE45B22BA070F0010CCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3125B2E22BCCBE000F9F2D0 /* HPScreenShotViewController.m in Sources */,
+				E33BE46722BA070F0010CCDB /* ViewController.m in Sources */,
+				E3125B3122BCCBFD00F9F2D0 /* HPDownloadViewController.m in Sources */,
+				E33BE47222BA07100010CCDB /* main.m in Sources */,
+				E33BE46422BA070F0010CCDB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE47322BA07100010CCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33BE47C22BA07100010CCDB /* HPLongPressQrCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33BE47E22BA07100010CCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33BE48722BA07100010CCDB /* HPLongPressQrCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33BE47922BA07100010CCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33BE45E22BA070F0010CCDB /* HPLongPressQrCode */;
+			targetProxy = E33BE47822BA07100010CCDB /* PBXContainerItemProxy */;
+		};
+		E33BE48422BA07100010CCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33BE45E22BA070F0010CCDB /* HPLongPressQrCode */;
+			targetProxy = E33BE48322BA07100010CCDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33BE46822BA070F0010CCDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33BE46922BA070F0010CCDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33BE46D22BA07100010CCDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33BE46E22BA07100010CCDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33BE48922BA07110010CCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E33BE48A22BA07110010CCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33BE48C22BA07110010CCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1626491D15308ADA1D7A3DB9 /* Pods-HPLongPressQrCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E33BE48D22BA07110010CCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7049169278D2B8B91682DC3D /* Pods-HPLongPressQrCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E33BE48F22BA07110010CCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAF0F023406B207CDA4EEEB /* Pods-HPLongPressQrCodeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPLongPressQrCode.app/HPLongPressQrCode";
+			};
+			name = Debug;
+		};
+		E33BE49022BA07110010CCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762666AFDB0E92B214799F5E /* Pods-HPLongPressQrCodeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPLongPressQrCode.app/HPLongPressQrCode";
+			};
+			name = Release;
+		};
+		E33BE49222BA07110010CCDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177644FC27F7CB0F01E813F5 /* Pods-HPLongPressQrCodeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPLongPressQrCode;
+			};
+			name = Debug;
+		};
+		E33BE49322BA07110010CCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4803A166C626A5950DC918 /* Pods-HPLongPressQrCodeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = HPLongPressQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.HPLongPressQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPLongPressQrCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33BE45A22BA070F0010CCDB /* Build configuration list for PBXProject "HPLongPressQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33BE48922BA07110010CCDB /* Debug */,
+				E33BE48A22BA07110010CCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33BE48B22BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33BE48C22BA07110010CCDB /* Debug */,
+				E33BE48D22BA07110010CCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33BE48E22BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33BE48F22BA07110010CCDB /* Debug */,
+				E33BE49022BA07110010CCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33BE49122BA07110010CCDB /* Build configuration list for PBXNativeTarget "HPLongPressQrCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33BE49222BA07110010CCDB /* Debug */,
+				E33BE49322BA07110010CCDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33BE45722BA070F0010CCDB /* Project object */;
+}
