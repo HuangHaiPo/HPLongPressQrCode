@@ -1,6 +1,12 @@
 # iOS 仿微信H5页面实现长按 识别二维码、保存图片功能
 
-![效果](https://upload-images.jianshu.io/upload_images/1483397-ebf66a1b70ddb917.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<p align="center">
+	<img src="https://upload-images.jianshu.io/upload_images/1483397-ebf66a1b70ddb917.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Sample"  width="250" height="450">
+	<p align="center">
+		<em>效果</em>
+	</p>
+</p>
+
 
 实现识别二维码可以通过截屏或者获取到图片的链接通过链接获得图片识别，不过通过截屏会有很多问题比如图片过小或者屏幕上有两个以上二维码，就识别不了。所以通过链接获取到图片对象识别二维码，是目前发现最好的方式。
 
